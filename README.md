@@ -1,52 +1,74 @@
-Your Project's Name
-One or two paragraphs providing an overview of your project. Tell us about your project.
+# Best Outfit's Ecommerce Website
+This project aims to create an easy to use and aesthetically appealling ecommerce website for customers to view and purchase the goods offered by "Best Outfit". It creates a shopping experience that comes with the gamification feature of being able to earn rewards. 
 
-Essentially, this part is your sales pitch.
+It includes features such as a navigation bar to make it easier for customers to find the products they want to purchase such as "Backpacks" or "Shirts". It also has a shopping cart function to see the items the customers are considering to buy which also adds up the total cost of the items for the customer's convenience and transparency. It also has a clean design using lottie animations to make the website more aesthetically appealling.
 
-Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+ 
+## Design Process
+ 
+ This website is for the customers of "Best Outfit" or anyone looking to purchase clothing and accessories and the Best Outfit's Ecommerce Website is the best way for them to purchase these clothing as it is not only easy to navigate but also aesthetically appealling. With the recent COVID-19 pandemic going on right now, shopping online is much easier and safer as well because it does not require any human contact. Moreover, it is much faster and efficient to shop online as you can just search for what you want to buy directly compared to shopping physically which requires you to walk to various sections of the shop to browse the goods which is not only more time consuming but also physically demanding as well.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+- As a busy working adult, I want to have a easy and fast way to purchase new clothes for the upcoming Chinese New Year, so that I can impress my relatives.
+- As a busy university student, I want to have a convinient way to purchase clothes and accessories, so that I will be able to impress my friends with different outfits.
+- As an indecisive person, I want to be able to easily change and edit the things I want to buy, so that I will not need to walk around too much in a physical store have a dilemma on what to buy.
+- As a customer, I want to be rewarded for being a loyal consumer of a brand, so that I can have discounts and perks when I purchase a lot of items from the brand.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
+These files should themselves either be included as a pdf file in the project itself (in an separate directory)
+Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+## Features
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### Existing Features
+- Navigation bar - allows customers to browse different sections of the online shop, by having them click on the name of the different sections
+- Shopping Cart - allows customers to see the items they are buying and the total price of these items
+- Mobile Compatibility - allows mobile device users to browse the website more efficiently, by having the items on the website fir to their screen size
+- Payment - allows customers to pay for the items they bought, by having them select their card payment type and entering its details
+- Adding and removal of items to cart - allows customers to add what they want to buy and allow them to retract their decision easily by letting them delete an item from the cart, by having them click
+- Rewards Page - allows loyal customers to earn special perks, by spending a certain amount of money on the goods from the brand
+- Sign Up - allows new users to create an account, by having them fill out the signup form
 
-Features Left to Implement
-Another feature idea
-Technologies Used
+### Features Left to Implement
+- Points reward system - allows loyal customers to accumulate points to redeem special rewards such as discounts and not needing to have many big purchases at once to earn rewards, by continually purchasing items from the shop 
+
+## Technologies Used
+
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+- [Lottie](https://airbnb.design/lottie/)
+    - The project uses **Lottie** to create animations on the website.
+- [CSS]
+    - The project uses **CSS** to enable the separation of presentation and content, including layout, colors, and fonts on the website.
+- [HTML]
+    - The project uses **HTML** for describing the structure of the webpages.
+- [JavaScript](https://www.javascript.com/)
+    - The project uses **JavaScript** to allow the web pages to be interactive.
+
+
+
+## Testing
+
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Credits
-Content
-(References and inspirations)
-https://cdn3.vectorstock.com/i/1000x1000/52/62/sign-up-page-purple-gradient-registration-form-vector-23745262.jpg (sign up page)
-https://www.youtube.com/watch?v=YeFzkC2awTM (shopping cart)
-https://codepen.io/sumeshkp18/pen/VGBPYg (Spinning wheel)
+## Credits
 
+### Content
+
+### Media
 (Sign up icons)
 https://cdn.iconscout.com/icon/premium/png-256-thumb/user-2676192-2221411.png
 https://e7.pngegg.com/pngimages/713/238/png-clipart-inbox-by-gmail-computer-icons-email-gmail-purple-angle-thumbnail.png
@@ -85,8 +107,10 @@ https://user-images.githubusercontent.com/52581/44384465-5e312780-a570-11e8-9336
 (Home icon)
 https://toppng.com/public/uploads/preview/home-icon-home-page-fill-svg-png-icon-free-download-home-icon-11563093105vmyztldsds.png
 
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+
+### Acknowledgements
+(References and inspirations)
+https://cdn3.vectorstock.com/i/1000x1000/52/62/sign-up-page-purple-gradient-registration-form-vector-23745262.jpg (sign up page)
+https://www.youtube.com/watch?v=YeFzkC2awTM (shopping cart)
+https://codepen.io/sumeshkp18/pen/VGBPYg (Spinning wheel)
 
