@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js/index.js"></script>
+
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#shoppingCart">Cart</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#Backpacks">Backpacks</a>
+            <a class="dropdown-item" href="#Shirts">Shirts</a>
+            <a class="dropdown-item" href="#Pants">Pants</a>
+            <a class="dropdown-item" href="#Shoes">Shoes</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Limited Time
+          </a>
+          <div class="dropdown-menu" style="width: 700px; padding-left: 10px;">
+            With a minimum spend of $200, you can stand a chance to win prizes (Limited Time Only)
+          </div>
+        </li>
+    </div>
+    <div class="flex">
+      <div id="fullname" style="color: white; padding-right: 20px; font-size: 25px;"></div>
+      <img src="images(index)/profile.png" height="40px" style="background: transparent;">
+    </div>
+  </nav>
+
+  <div id="fullname"></div>
+
+  <a href="#shoppingCart"><img class="sticky" src="images(index)/shoppingCart.webp" style="margin-top: 30px;"></a>
+
+  <!-- Backpacks -->
+  <div class="flex">
+    <a name="Backpacks"><h1>Backpacks</h1></a>
+  </div>
+  
+  <div class="container" >
+    <div class="row" style="border: 1px solid; padding: 5px; border-radius: 5px;">
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">Bullet backpack</span>
+        <img class="shop-item-image" src="images(index)/bag(1).jpg" style="width:200px">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$49.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">Canvas backpack</span>
+        <img class="shop-item-image" src="images(index)/bag(2).jpg" style="width:200px">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$59.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">Samsonite Red Haeil Backpack</span>
+        <img class="shop-item-image" src="images(index)/bag(3).jpg" style="width:130px">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$39.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shirts -->
+  <a name="Shirts"><h1>Shirts</h1></a>
+  <div class="container" >
+    <div class="row" style="border: 1px solid; padding: 5px;">
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">SHEIN Graphic Long Sleeve Pullover</span>
+        <img class="shop-item-image" src="images(index)/shirt(1).webp" style="width:190px">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$29.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">Ramen Panda</span>
+        <img class="shop-item-image" src="images(index)/shirt(2).jpg" style="width:250px">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$19.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">Men's Equator Shirt</span>
+        <img class="shop-item-image" src="images(index)/shirt(3).jpg" style="width:250px">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$33.90</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pants -->
+  <a name="Pants"><h1>Pants</h1></a>
+  <div class="container" >
+    <div class="row" style="border: 1px solid; padding: 5px;">
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">Bonobos Stretch Washed Chinos</span>
+        <img class="shop-item-image" src="images(index)/pants(1).jpg" style="width:100%">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$19.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">Dockers Alpha Men's Khaki Pants</span>
+        <img class="shop-item-image" src="images(index)/pants(2).jpg" style="width:100%">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$21.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">Uniqlo EZY DRY-EX Ankle-Legth Pants</span>
+        <img class="shop-item-image" src="images(index)/pants(3).jpg" style="width:100%">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$23.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shoes -->
+  <a name="Shoes"><h1>Shoes</h1></a>
+  <div class="container" >
+    <div class="row" style="border: 1px solid; padding: 5px;">
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">nike free rn 5.0 yellow</span>
+        <img class="shop-item-image" src="images(index)/shoes(1).jpg" style="width:100%">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$69.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+      </div>
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">Nike Free RN 5.0 (Men)</span>
+        <img class="shop-item-image" src="images(index)/shoes(2).jpg" style="width:100%">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$79.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+      </div>
+      <div class="col" style="border: 1px solid; padding: 5px; margin-right: 20px;position: relative;">
+        <span class="shop-item-title">Nike Free RN 5.0 (Women)</span>
+        <img class="shop-item-image" src="images(index)/shoes(3).jpg" style="width:100%">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$59.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <!-- Shopping Cart -->
+  <form action="payment.html">
+    <section class="cart-container content-section">
+      <div class="flex">
+        <a name="shoppingCart"><h1>MY SHOPPING CART</h1></a>
+        <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_rgsilsi9.json"  background="transparent"  speed="1"  style="width: 70px; height: 70px; margin-top: 30px;"  loop  autoplay></lottie-player>
+      </div>
+      
+      <div class="cart-row">
+          <span class="cart-item cart-header cart-column">ITEM</span>
+          <span class="cart-price cart-header cart-column">PRICE</span>
+          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+          <div class="cart-row">
+              <div class="cart-item cart-column">
+                  <img class="cart-item-image" src="images(index)/shirt(2).jpg" width="100" height="100">
+                  <span class="cart-item-title">Ramen Panda</span>
+              </div>
+              <span class="cart-price cart-column">$19.99</span>
+              <div class="cart-quantity cart-column">
+                  <input class="cart-quantity-input" type="number" value="1">
+                  <button class="btn btn-danger" type="button">REMOVE</button>
+              </div>
+          </div>
+      </div>
+      <div class="cart-total">
+          <strong class="cart-total-title">Total</strong>
+          <span class="cart-total-price" id="cart-total-price">$19.99</span>
+      </div>
+      <a href="payment.html"><button class="btn btn-primary btn-purchase" type="button" onclick="passvalue()">PURCHASE</button></a>
+    </section>
+  </form>
+</body>
+</html>
