@@ -39,34 +39,24 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **JQuery** to simplify DOM manipulation.
 - [Lottie](https://airbnb.design/lottie/)
     - The project uses **Lottie** to create animations on the website.
-- [CSS]
+- [CSS](https://www.w3schools.com/css/)
     - The project uses **CSS** to enable the separation of presentation and content, including layout, colors, and fonts on the website.
-- [HTML]
+- [HTML](https://html.com/)
     - The project uses **HTML** for describing the structure of the webpages.
 - [JavaScript](https://www.javascript.com/)
     - The project uses **JavaScript** to allow the web pages to be interactive.
 
-
-
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+1. Signup form:
+    1. Go to the "Sign Up" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears.
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
+    4. Try to submit the form with non matching passwords and verify that a relevant error message appears.
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+The project uses flexbox to adapt to different screen sizes and the words will start on a new line if there is not enough space.
 ## Credits
-
-### Content
 
 ### Media
 (Sign up icons)
