@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	 crossorigin="anonymous">
+     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
+     <link rel="stylesheet" href="style/signup.css">
+
+</head>
+<body>
+    <body id="admin">
+
+    <form action="index.html">
+        <div class="wrapper">
+            <div class="container">
+            <div class="input-fields">
+                <div class="flex">
+                    <h1 style="text-align: center;">Sign up</h1>
+                    <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_xa2hm6z1.json"  background="transparent"  speed="1"  style="width: 50px; height: 50px;"  loop  autoplay></lottie-player>
+                </div>
+                <form action="index.html">
+                <div class="mb-3" style="margin-top: 30px;">
+                    <input type="text" class="form-control" placeholder="Your full name" id="name">
+                </div>
+                <div class="mb-3" style="margin-top: 30px;">
+                    <input type="email" class="form-control" placeholder="Enter Email" id="email" required>
+                </div>
+                <div class="mb-3" style="margin-top: 30px;">
+                    <div class="password">
+                        <input type="password" class="form-control" placeholder="Enter Password" id="psw" required>
+                        <img src="images(signup)/passwordshow.png" style="width: 38px;" onclick="myFunction1()">
+                    </div>
+                    
+                </div>
+                <div class="mb-3" style="margin-top: 30px;">
+                    <div class="password-repeat">
+                        <input type="password" class="form-control" placeholder="Confirm Password" id="psw-repeat" required>
+                        <img src="images(signup)/passwordshow.png" style="width: 38px;" onclick="myFunction2()">
+                    </div>
+                </div>
+                <label id="checkbox">
+                    <input type="checkbox" checked="checked" style="margin-top: 4px;"> 
+                    <p style="padding-left: 10px;font-size: 12px;">I read and agree to the <a href="#" style="color:indigo">Terms & Privacy</a></p>.
+                </label>
+            
+        
+                <a href="index.html"><button type="submit" class="btn btn-primary" id="create-account" onclick="passvalue()">CREATE ACCOUNT</button></a>
+                </form>
+            </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
+<script src="js/signup.js"></script>
