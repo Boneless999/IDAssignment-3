@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-color: 	blueviolet;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px
+}
+
+.container{
+    max-width:550px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius:15px;
+    background: white;
+    display: flex;
+    box-shadow: 0 0 30px black;
+}
+
+.input-fields{
+    margin: 10px 0;
+    background: transparent;
+    border:0;
+    border-bottom: 2px solid indigo;
+    padding: 10px;
+    width:100%;
+}   
+
+input[type=text], input[type=email], input[type=password] {
+    border-radius: 50px;
+    box-shadow: 0 0 10px lightblue;
+    height: 40px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+#create-account{
+    border-radius: 50px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#name{
+    background-image: url("../images(signup)/profile.png");
+    padding-left: 60px;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 12px;
+}
+
+#email{
+    background-image: url("../images(signup)/email.jpg");
+    padding-left: 60px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#psw{
+    background-image: url("../images(signup)/password.webp");
+    padding-left: 60px;
+    background-size: 38px;
+    background-repeat: no-repeat;
+    background-position: 13px;
+}
+
+#psw-repeat{
+    background-image: url("../images(signup)/password.webp");
+    padding-left: 60px;
+    background-size: 38px;
+    background-repeat: no-repeat;
+    background-position: 13px;
+}
+
+#create-account{
+    background: linear-gradient(to right,darkviolet, indigo);
+    margin-bottom: 10px;
+}
+
+#checkbox{
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+#create-account:hover {
+    box-shadow: 0 0 5px gray;
+}
+
+.password{
+    position: relative;
+    display: flex;
+}
+
+.password img{
+    position: absolute;
+    left: 80%
+}
+
+.password-repeat{
+    position: relative;
+    display: flex;
+}
+
+.password-repeat img{
+    position: absolute;
+    left: 80%
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    input[type=text], input[type=email], input[type=password] {
+        width: 100%;
+    }
+}
